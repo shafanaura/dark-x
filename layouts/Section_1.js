@@ -1,5 +1,6 @@
 import Button from '../components/Button';
 import styles from '../styles/Section_1.module.scss';
+import Image from 'next/Image';
 
 export default function Section_1() {
   return (
@@ -15,6 +16,14 @@ export default function Section_1() {
         <Button size="large" variant="secondary">
           Browse Features
         </Button>
+      </div>
+      <div className={styles.chart__container}>
+        <Image
+          src="/assets/img/chart-board.svg"
+          alt="chart"
+          width="1373"
+          height="751"
+        />
       </div>
     </div>
   );
