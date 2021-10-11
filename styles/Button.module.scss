@@ -1,0 +1,36 @@
+$gradient: linear-gradient(rgba(255, 255, 255, 0), rgba(255, 255, 255, 0)),
+  linear-gradient(101deg, var(--purple), var(--pink));
+
+.btn-primary {
+  font-weight: 500;
+  cursor: pointer;
+  border-radius: 50px;
+  transition: all ease-out 0.5s;
+  width: 140px;
+  height: 40px;
+  border: solid 2px transparent;
+  position: relative;
+  z-index: 1;
+  background-image: $gradient;
+  background-origin: border-box;
+  box-shadow: 2px 1000px 1px black inset;
+  &::before {
+    border-radius: 50px;
+    transition: all ease 0.5s;
+    position: absolute;
+    top: 0;
+    left: 50%;
+    right: 50%;
+    bottom: 0;
+    opacity: 0;
+    content: '';
+    background-image: $gradient;
+  }
+  &:hover::before {
+    transition: all ease 0.5s;
+    left: 0;
+    right: 0;
+    opacity: 1;
+    z-index: -1;
+  }
+}
