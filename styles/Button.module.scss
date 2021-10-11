@@ -1,36 +1,42 @@
 $gradient: linear-gradient(rgba(255, 255, 255, 0), rgba(255, 255, 255, 0)),
   linear-gradient(101deg, var(--purple), var(--pink));
 
-.btn-primary {
-  font-weight: 500;
+.btn {
   cursor: pointer;
   border-radius: 50px;
   transition: all ease-out 0.5s;
-  width: 140px;
-  height: 40px;
+  font-weight: 500;
+  border: none;
+}
+.primary {
   border: solid 2px transparent;
-  position: relative;
-  z-index: 1;
   background-image: $gradient;
   background-origin: border-box;
   box-shadow: 2px 1000px 1px black inset;
-  &::before {
-    border-radius: 50px;
-    transition: all ease 0.5s;
-    position: absolute;
-    top: 0;
-    left: 50%;
-    right: 50%;
-    bottom: 0;
-    opacity: 0;
-    content: '';
-    background-image: $gradient;
-  }
-  &:hover::before {
-    transition: all ease 0.5s;
-    left: 0;
-    right: 0;
-    opacity: 1;
-    z-index: -1;
-  }
+}
+.secondary {
+  background: #302c3f;
+}
+.white {
+  background: white;
+  color: black;
+}
+.white-outlined {
+  background: black;
+  color: white;
+  border: solid 2px white;
+}
+.small {
+  font-size: 12px;
+  width: 120px;
+  height: 30px;
+}
+.medium {
+  width: 140px;
+  height: 40px;
+}
+.large {
+  font-size: 14px;
+  width: 160px;
+  height: 50px;
 }

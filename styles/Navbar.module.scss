@@ -1,6 +1,8 @@
+@import '../styles/globals_query.scss';
+
 .header {
+  margin-top: 18px;
   justify-content: space-between;
-  padding: 0 24px;
   display: flex;
   align-items: center;
 }
@@ -18,9 +20,9 @@
 .nav__links {
   list-style-type: none;
   display: flex;
-  gap: 24px;
+  gap: 36px;
   a {
-    opacity: 0.6;
+    opacity: var(--opacity);
     float: left;
     &:hover {
       opacity: 1;
@@ -85,7 +87,7 @@
 }
 
 // screen mobile
-@media (max-width: 767px) {
+@media (max-width: $max-mobile-screen) {
   .nav__icon {
     display: block;
     cursor: pointer;
@@ -94,7 +96,7 @@
     border-radius: 8px;
   }
   .logo {
-    font-size: 18px;
+    font-size: 24px;
   }
   .nav__links,
   .auth__container {

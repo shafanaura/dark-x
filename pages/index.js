@@ -1,29 +1,20 @@
 import styles from '../styles/Home.module.scss';
 import Image from 'next/image';
+import Head from 'next/Head';
 import Navbar from '../components/Navbar';
+import Section_1 from '../layouts/Section_1';
 
 export default function Home() {
   return (
-    <div>
+    <div className={styles.container}>
+      <Head>
+        <title>Dark X</title>
+        <meta name="viewport" content="initial-scale=1.0, width=device-width" />
+      </Head>
       <Navbar />
-      <Image
-        src="/assets/img/line-chart.svg"
-        width="422"
-        height="378"
-        alt="dawd"
-      />
-      <Image
-        src="/assets/img/hero-chart.svg"
-        width="728"
-        height="444"
-        alt="dawd"
-      />
-      <Image
-        src="/assets/img/bar-chart.svg"
-        width="422"
-        height="378"
-        alt="dawd"
-      />
+      <section>
+        <Section_1 />
+      </section>
     </div>
   );
 }
