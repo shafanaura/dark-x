@@ -1,3 +1,4 @@
+import Button from '../components/Button';
 import CardAbout from '../components/CardAbout';
 import CardCategory from '../components/CardCategory';
 import styles from '../styles/Section_3.module.scss';
@@ -54,6 +55,17 @@ export default function Section_3() {
           description="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Malesuada sit feugiat etiam risus, massa sit."
         />
       </CardAbout>
+      <div className={styles.subscribe__container}>
+        <p>Create your account and start trading today</p>
+        <div>
+          <Button variant="white" size="large">
+            Get Started
+          </Button>
+          <Button variant="white-outlined" size="large">
+            View Pricing
+          </Button>
+        </div>
+      </div>
     </div>
   );
 }
