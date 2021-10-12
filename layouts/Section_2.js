@@ -4,7 +4,7 @@ import styles from '../styles/Section_2.module.scss';
 
 export default function Section_2() {
   return (
-    <>
+    <div className="padding__container">
       <div className={styles.container}>
         <div className={styles.content}>
           <CardCategory
@@ -57,6 +57,6 @@ export default function Section_2() {
           Browse Features
         </Button>
       </div>
-    </>
+    </div>
   );
 }

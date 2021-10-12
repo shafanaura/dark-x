@@ -1,1 +1,23 @@
 @import '../styles/globals_query.scss';
+
+.container__img {
+  background: rgb(206, 77, 164);
+  background: linear-gradient(
+    90deg,
+    rgba(206, 77, 164, 1) 0%,
+    rgba(109, 87, 255, 1) 100%
+  );
+  overflow: hidden;
+  border-radius: 24px;
+  img {
+    position: relative;
+    right: 60px;
+    height: 300px;
+  }
+}
+
+@media (max-width: $max-mobile-screen) {
+  .container__img {
+    display: none;
+  }
+}

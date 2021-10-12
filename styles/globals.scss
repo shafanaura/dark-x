@@ -1,3 +1,5 @@
+@import '../styles/globals_query.scss';
+
 :root {
   --purple: #6d57ff;
   --pink: #ce4da4;
@@ -23,4 +25,16 @@ a {
 * {
   font-family: 'Poppins', sans-serif;
   color: white;
+}
+
+.padding__container {
+  padding-left: 4.6rem;
+  padding-right: 4.6rem;
+}
+
+@media (max-width: $max-tablet-screen) {
+  .padding__container {
+    padding-left: 0;
+    padding-right: 0;
+  }
 }

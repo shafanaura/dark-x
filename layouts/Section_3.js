@@ -1,11 +1,11 @@
 import CardAbout from '../components/CardAbout';
 import CardCategory from '../components/CardCategory';
+import styles from '../styles/Section_3.module.scss';
 
 const RightContent = (
-  <>
-    <p>dwawdwdwdwd</p>
-    <p>dwawdwdwdwd</p>
-  </>
+  <div className={styles.container__img}>
+    <img src="/assets/img/dashboard.svg" width="651" height="444" alt="img" />
+  </div>
 );
 
 export default function Section_3() {

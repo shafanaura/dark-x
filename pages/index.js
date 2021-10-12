@@ -13,9 +13,11 @@ export default function Home() {
         <meta name="viewport" content="initial-scale=1.0, width=device-width" />
       </Head>
       <Navbar />
-      <Section_1 />
-      <Section_2 />
-      <Section_3 />
+      <div className="padding__container">
+        <Section_1 />
+        <Section_2 />
+        <Section_3 />
+      </div>
       <div style={{ marginTop: 100 }} />
     </div>
   );
