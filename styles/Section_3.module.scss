@@ -1,6 +1,11 @@
 @import '../styles/globals_query.scss';
 
-.container__img {
+.container__content {
+  display: flex;
+  flex-direction: column;
+  gap: 48px;
+}
+.container__img_right {
   background: rgb(206, 77, 164);
   background: linear-gradient(
     90deg,
@@ -11,13 +16,30 @@
   border-radius: 24px;
   img {
     position: relative;
-    right: 60px;
+    left: 20px;
+    height: 300px;
+  }
+}
+.container__img_left {
+  background: rgb(206, 77, 164);
+  background: linear-gradient(
+    270deg,
+    rgba(206, 77, 164, 1) 0%,
+    rgba(109, 87, 255, 1) 100%
+  );
+  border-radius: 24px;
+  justify-content: center;
+  display: flex;
+  img {
     height: 300px;
   }
 }
 
 @media (max-width: $max-mobile-screen) {
-  .container__img {
+  .container__img_right {
+    display: none;
+  }
+  .container__img_left {
     display: none;
   }
 }

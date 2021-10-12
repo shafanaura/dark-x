@@ -3,14 +3,20 @@ import CardCategory from '../components/CardCategory';
 import styles from '../styles/Section_3.module.scss';
 
 const RightContent = (
-  <div className={styles.container__img}>
-    <img src="/assets/img/dashboard.svg" width="651" height="444" alt="img" />
+  <div className={styles.container__img_right}>
+    <img src="/assets/img/dashboard.svg" alt="img" />
+  </div>
+);
+
+const LeftContent = (
+  <div className={styles.container__img_left}>
+    <img src="/assets/img/encrypt.svg" alt="img" />
   </div>
 );
 
 export default function Section_3() {
   return (
-    <div>
+    <div className={styles.container__content}>
       <CardAbout
         title="Real-Time Trading Like Never Before"
         description="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Malesuada sit feugiat etiam risus, massa sit."
@@ -26,6 +32,25 @@ export default function Section_3() {
           direction="row"
           icon="no"
           title="No Commissions"
+          description="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Malesuada sit feugiat etiam risus, massa sit."
+        />
+      </CardAbout>
+      <CardAbout
+        align="left"
+        title="Built-in Enterprise Encryption and Security"
+        description="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Malesuada sit feugiat etiam risus, massa sit."
+        col_content={LeftContent}
+      >
+        <CardCategory
+          direction="row"
+          icon="clock"
+          title="256-Bit AES Encryption"
+          description="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Malesuada sit feugiat etiam risus, massa sit."
+        />
+        <CardCategory
+          direction="row"
+          icon="no"
+          title="Advanced Security Standards"
           description="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Malesuada sit feugiat etiam risus, massa sit."
         />
       </CardAbout>
