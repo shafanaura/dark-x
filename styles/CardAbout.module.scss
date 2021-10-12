@@ -1,12 +1,17 @@
 @import '../styles/globals_query.scss';
 
 .container {
-  display: flex;
-  gap: 12px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
 }
 .title {
   font-weight: 700;
   font-size: 24px;
+}
+.description {
+  opacity: 0.6;
+  font-size: 14px;
+  margin-bottom: 20px;
 }
 .container__about {
   display: flex;
