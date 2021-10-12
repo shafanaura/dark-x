@@ -6,17 +6,10 @@
   background-color: var(--gray-dark);
   padding: 24px;
   border-radius: 26px;
-  img {
-    height: 38px;
-    width: 38px;
-    padding: 12px;
-    background-color: var(--gray-light);
-    border-radius: 18px;
-  }
 }
 .title {
   font-weight: 500;
-  margin: 8px 0;
+  margin: 14px 0 8px 0;
 }
 .description {
   font-size: 14px;
@@ -28,9 +21,5 @@
   .container {
     width: 250px;
     min-height: 160px;
-    img {
-      height: 30px;
-      width: 30px;
-    }
   }
 }

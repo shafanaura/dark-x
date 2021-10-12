@@ -1,0 +1,15 @@
+@import '../styles/globals_query.scss';
+
+.container {
+  display: flex;
+  gap: 12px;
+}
+.title {
+  font-weight: 700;
+  font-size: 24px;
+}
+.container__about {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}

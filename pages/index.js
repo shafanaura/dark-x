@@ -3,6 +3,7 @@ import Head from 'next/Head';
 import Navbar from '../components/Navbar';
 import Section_1 from '../layouts/Section_1';
 import Section_2 from '../layouts/Section_2';
+import Section_3 from '../layouts/Section_3';
 
 export default function Home() {
   return (
@@ -14,6 +15,7 @@ export default function Home() {
       <Navbar />
       <Section_1 />
       <Section_2 />
+      <Section_3 />
       <div style={{ marginTop: 100 }} />
     </div>
   );

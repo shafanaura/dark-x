@@ -1,0 +1,14 @@
+@import '../styles/globals_query.scss';
+
+.property {
+  height: 38px;
+  width: 38px;
+  padding: 12px;
+  background-color: var(--gray-light);
+  border-radius: 18px;
+  font-weight: 700;
+  font-size: 24px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
