@@ -1,8 +1,11 @@
 .container {
   display: flex;
-  gap: 24px;
-  flex-wrap: wrap;
   justify-content: center;
+  .content {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 24px;
+  }
 }
 .btn__container {
   display: flex;
