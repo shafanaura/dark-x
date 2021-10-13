@@ -4,6 +4,7 @@ import Navbar from '../components/Navbar';
 import Section_1 from '../layouts/Section_1';
 import Section_2 from '../layouts/Section_2';
 import Section_3 from '../layouts/Section_3';
+import Section_4 from '../layouts/Section_4';
 
 export default function Home() {
   return (
@@ -17,6 +18,7 @@ export default function Home() {
         <Section_1 />
         <Section_2 />
         <Section_3 />
+        <Section_4 />
       </div>
       <div style={{ marginTop: 100 }} />
     </div>
