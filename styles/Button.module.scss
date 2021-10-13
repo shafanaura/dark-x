@@ -11,7 +11,7 @@ $gradient: linear-gradient(rgba(255, 255, 255, 0), rgba(255, 255, 255, 0)),
   border: none;
 }
 .primary {
-  border: solid 2px transparent;
+  border: solid 3px transparent;
   background-image: $gradient;
   background-origin: border-box;
   box-shadow: 2px 1000px 1px black inset;
@@ -26,7 +26,7 @@ $gradient: linear-gradient(rgba(255, 255, 255, 0), rgba(255, 255, 255, 0)),
 .white-outlined {
   background: black;
   color: white;
-  border: solid 2px white;
+  border: solid 3px white;
 }
 .small {
   font-size: 12px;
