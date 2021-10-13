@@ -6,6 +6,7 @@ const DIRECTION = ['col', 'row'];
 
 export default function CardCategory({
   icon,
+  text,
   title,
   description,
   direction,
@@ -19,7 +20,7 @@ export default function CardCategory({
     <div
       className={`${styles[checkVariant]} ${styles[checkDirection]} ${styles.container}`}
     >
-      <TextBorder icon={icon} />
+      <TextBorder icon={icon} text={text} />
       <div className={`${styles[checkDirection]}`}>
         <p className={styles.title}>{title}</p>
         <p className={styles.description}>{description}</p>

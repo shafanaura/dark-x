@@ -1,7 +1,7 @@
 import styles from '../styles/TextBorder.module.scss';
 
 export default function TextBorder({ icon, text }) {
-  return icon !== '' ? (
+  return icon ? (
     <img
       src={`/assets/icons/${icon}.svg`}
       alt="icon"

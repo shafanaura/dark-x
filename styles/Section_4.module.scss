@@ -1,0 +1,32 @@
+@import '../styles/globals_query.scss';
+
+.container {
+  display: grid;
+  gap: 24px;
+  grid-template-columns: 40% 50%;
+  h2 {
+    margin: 0;
+  }
+  span {
+    font-weight: 300;
+    opacity: 0.6;
+    font-size: 15px;
+  }
+  button {
+    margin-top: 42px;
+  }
+  .left__content {
+    display: flex;
+    flex-direction: column;
+  }
+}
+
+@media (max-width: $max-tablet-screen) {
+  .container {
+    display: flex;
+    gap: 0;
+  }
+  .right__content {
+    display: none;
+  }
+}

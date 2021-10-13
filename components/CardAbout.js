@@ -14,7 +14,7 @@ export default function CardAbout({
         <>
           <div>{col_content}</div>
           <div>
-            <p className={styles.title}>{title}</p>
+            <h2 className={styles.title}>{title}</h2>
             <p className={styles.description}>{description}</p>
             <div className={styles.container__about}>{children}</div>
           </div>
@@ -22,7 +22,7 @@ export default function CardAbout({
       ) : (
         <>
           <div>
-            <p className={styles.title}>{title}</p>
+            <h2 className={styles.title}>{title}</h2>
             <p className={styles.description}>{description}</p>
             <div className={styles.container__about}>{children}</div>
           </div>
