@@ -58,9 +58,7 @@
 }
 
 @media (max-width: $max-mobile-screen) {
-  .container__img_right {
-    display: none;
-  }
+  .container__img_right,
   .container__img_left {
     display: none;
   }

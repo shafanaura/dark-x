@@ -3,7 +3,7 @@
 .container {
   display: grid;
   gap: 24px;
-  grid-template-columns: 40% 50%;
+  grid-template-columns: 40% 60%;
   h2 {
     margin: 0;
   }
@@ -19,14 +19,16 @@
     display: flex;
     flex-direction: column;
   }
+  .right__content {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+  }
 }
 
 @media (max-width: $max-tablet-screen) {
   .container {
     display: flex;
-    gap: 0;
-  }
-  .right__content {
-    display: none;
+    flex-direction: column;
   }
 }
