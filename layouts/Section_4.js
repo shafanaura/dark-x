@@ -36,7 +36,7 @@ export default function Section_4() {
           variant="bg"
           title="Customize your profile"
           description="Lorem ipsum dolor sit amet, elit. Imperdiet at at varius commodo pharetra odio sollicitudin. "
-          text="2"
+          text="3"
         />
       </div>
     </div>
