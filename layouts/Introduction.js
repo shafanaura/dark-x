@@ -1,8 +1,8 @@
-import Button from '../components/Button';
-import styles from '../styles/Section_1.module.scss';
-import Image from 'next/Image';
+import Button from '../components/Button'
+import styles from '../styles/Introduction.module.scss'
+import Image from 'next/Image'
 
-export default function Section_1() {
+export default function Introduction() {
   return (
     <div className={styles.container}>
       <p style={{ marginTop: 48 }}>Next-Gen Investing App</p>
@@ -26,5 +26,5 @@ export default function Section_1() {
         />
       </div>
     </div>
-  );
+  )
 }

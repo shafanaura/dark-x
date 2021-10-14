@@ -1,21 +1,21 @@
-import Button from '../components/Button';
-import CardAbout from '../components/CardAbout';
-import CardCategory from '../components/CardCategory';
-import styles from '../styles/Section_3.module.scss';
+import Button from '../components/Button'
+import CardAbout from '../components/CardAbout'
+import CardCategory from '../components/CardCategory'
+import styles from '../styles/About.module.scss'
 
 const RightContent = (
   <div className={styles.container__img_right}>
     <img src="/assets/img/dashboard.svg" alt="img" />
   </div>
-);
+)
 
 const LeftContent = (
   <div className={styles.container__img_left}>
     <img src="/assets/img/encrypt.svg" alt="img" />
   </div>
-);
+)
 
-export default function Section_3() {
+export default function About() {
   return (
     <div className={styles.container__content}>
       <CardAbout
@@ -67,5 +67,5 @@ export default function Section_3() {
         </div>
       </div>
     </div>
-  );
+  )
 }

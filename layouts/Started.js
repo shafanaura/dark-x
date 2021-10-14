@@ -1,8 +1,8 @@
 import Button from '../components/Button'
 import CardCategory from '../components/CardCategory'
-import styles from '../styles/Section_4.module.scss'
+import styles from '../styles/Started.module.scss'
 
-export default function Section_4() {
+export default function Started() {
   return (
     <div className={styles.container}>
       <div className={styles.left__content}>

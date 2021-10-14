@@ -1,8 +1,8 @@
-import Button from '../components/Button';
-import CardCategory from '../components/CardCategory';
-import styles from '../styles/Section_2.module.scss';
+import Button from '../components/Button'
+import CardCategory from '../components/CardCategory'
+import styles from '../styles/Feature.module.scss'
 
-export default function Section_2() {
+export default function Feature() {
   return (
     <div className="padding__container">
       <div className={styles.container}>
@@ -58,5 +58,5 @@ export default function Section_2() {
         </Button>
       </div>
     </div>
-  );
+  )
 }
