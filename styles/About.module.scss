@@ -1,11 +1,11 @@
 @import '../styles/globals_query.scss';
 
-.container__content {
+.container_content {
   display: flex;
   flex-direction: column;
   gap: 48px;
 }
-.container__img_right {
+.container_img_right {
   background: rgb(206, 77, 164);
   background: linear-gradient(
     90deg,
@@ -20,7 +20,7 @@
     height: 300px;
   }
 }
-.container__img_left {
+.container_img_left {
   background: rgb(206, 77, 164);
   background: linear-gradient(
     270deg,
@@ -35,7 +35,7 @@
   }
 }
 
-.subscribe__container {
+.subscribe_container {
   margin-top: 20px;
   margin-bottom: 52px;
   display: flex;
@@ -58,11 +58,11 @@
 }
 
 @media (max-width: $max-mobile-screen) {
-  .container__img_right,
-  .container__img_left {
+  .container_img_right,
+  .container_img_left {
     display: none;
   }
-  .subscribe__container {
+  .subscribe_container {
     padding: 14px;
     gap: 10px;
     p {

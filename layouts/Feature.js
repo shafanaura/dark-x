@@ -4,7 +4,7 @@ import styles from '../styles/Feature.module.scss'
 
 export default function Feature() {
   return (
-    <div className="padding__container">
+    <div className="padding_container">
       <div className={styles.container}>
         <div className={styles.content}>
           <CardCategory
@@ -51,7 +51,7 @@ export default function Feature() {
           />
         </div>
       </div>
-      <div className={styles.btn__container}>
+      <div className={styles.btn_container}>
         <Button size="large">Get Started</Button>
         <Button size="large" variant="secondary">
           Browse Features

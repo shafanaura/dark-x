@@ -6,6 +6,7 @@ import Introduction from '../layouts/Introduction'
 import Feature from '../layouts/Feature'
 import About from '../layouts/About'
 import Started from '../layouts/Started'
+import Review from '../layouts/Review'
 
 export default function Home() {
   return (
@@ -15,11 +16,12 @@ export default function Home() {
         <meta name="viewport" content="initial-scale=1.0, width=device-width" />
       </Head>
       <Navbar />
-      <div className="padding__container">
+      <div className="padding_container">
         <Introduction />
         <Feature />
         <About />
         <Started />
+        <Review />
       </div>
       <div style={{ marginTop: 100 }} />
     </div>

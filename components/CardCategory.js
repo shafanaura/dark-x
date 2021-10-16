@@ -20,7 +20,7 @@ export default function CardCategory({
     : DIRECTION[0]
   type = type === 'img' ? type : 'no-img'
   return (
-    <div className={styles.parent__container}>
+    <div className={styles.parent_container}>
       <div
         className={`${styles[checkVariant]} ${styles[checkDirection]} ${styles.container} ${styles[type]}`}
       >
@@ -31,7 +31,7 @@ export default function CardCategory({
         </div>
       </div>
       {type === 'img' && (
-        <div className={styles.container__img}>
+        <div className={styles.container_img}>
           <img src={`/assets/img/${img}`} alt="img" />
         </div>
       )}

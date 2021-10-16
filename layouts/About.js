@@ -4,20 +4,20 @@ import CardCategory from '../components/CardCategory'
 import styles from '../styles/About.module.scss'
 
 const RightContent = (
-  <div className={styles.container__img_right}>
+  <div className={styles.container_img_right}>
     <img src="/assets/img/dashboard.svg" alt="img" />
   </div>
 )
 
 const LeftContent = (
-  <div className={styles.container__img_left}>
+  <div className={styles.container_img_left}>
     <img src="/assets/img/encrypt.svg" alt="img" />
   </div>
 )
 
 export default function About() {
   return (
-    <div className={styles.container__content}>
+    <div className={styles.container_content}>
       <CardAbout
         title="Real-Time Trading Like Never Before"
         description="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Malesuada sit feugiat etiam risus, massa sit."
@@ -55,7 +55,7 @@ export default function About() {
           description="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Malesuada sit feugiat etiam risus, massa sit."
         />
       </CardAbout>
-      <div className={styles.subscribe__container}>
+      <div className={styles.subscribe_container}>
         <p>Create your account and start trading today</p>
         <div>
           <Button variant="white" size="large">

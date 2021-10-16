@@ -28,13 +28,13 @@ a {
   color: white;
 }
 
-.padding__container {
+.padding_container {
   padding-left: 4.6rem;
   padding-right: 4.6rem;
 }
 
 @media (max-width: $max-tablet-screen) {
-  .padding__container {
+  .padding_container {
     padding-left: 0;
     padding-right: 0;
   }

@@ -1,4 +1,4 @@
-import styles from '../styles/CardAbout.module.scss';
+import styles from '../styles/CardAbout.module.scss'
 
 export default function CardAbout({
   title,
@@ -7,7 +7,7 @@ export default function CardAbout({
   col_content,
   align,
 }) {
-  align = align ? align : 'right';
+  align = align ? align : 'right'
   return (
     <div className={`${styles.container} ${styles[align]}`}>
       {align === 'left' ? (
@@ -16,7 +16,7 @@ export default function CardAbout({
           <div>
             <h2 className={styles.title}>{title}</h2>
             <p className={styles.description}>{description}</p>
-            <div className={styles.container__about}>{children}</div>
+            <div className={styles.container_about}>{children}</div>
           </div>
         </>
       ) : (
@@ -24,11 +24,11 @@ export default function CardAbout({
           <div>
             <h2 className={styles.title}>{title}</h2>
             <p className={styles.description}>{description}</p>
-            <div className={styles.container__about}>{children}</div>
+            <div className={styles.container_about}>{children}</div>
           </div>
           <div>{col_content}</div>
         </>
       )}
     </div>
-  );
+  )
 }

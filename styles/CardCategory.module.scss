@@ -30,10 +30,10 @@
 .img {
   border-radius: 26px 0 0 26px;
 }
-.parent__container {
+.parent_container {
   display: flex;
 }
-.container__img {
+.container_img {
   display: flex;
   justify-content: center;
   background-color: #fff;
@@ -55,13 +55,13 @@
 }
 
 @media (max-width: $max-mobile-screen) {
-  .parent__container {
+  .parent_container {
     display: block;
   }
   .img {
     border-radius: 26px 26px 0 0;
   }
-  .container__img {
+  .container_img {
     border-radius: 0 0 26px 26px;
   }
   .title {

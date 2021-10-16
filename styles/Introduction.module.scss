@@ -1,12 +1,12 @@
 @import '../styles/globals_query.scss';
 
-.btn__container {
+.btn_container {
   display: flex;
   gap: 24px;
   align-items: center;
 }
 
-.chart__container {
+.chart_container {
   justify-content: center;
   display: flex;
   align-items: center;
@@ -22,7 +22,7 @@
     font-weight: 700;
     font-size: 42px;
   }
-  .gradient__text {
+  .gradient_text {
     margin-top: -8px;
     background-image: linear-gradient(45deg, var(--pink), var(--purple));
     -webkit-background-clip: text;
@@ -43,7 +43,7 @@
   }
 }
 @media (max-width: $max-mobile-screen) {
-  .btn__container {
+  .btn_container {
     margin-bottom: 20px;
   }
   .container {
