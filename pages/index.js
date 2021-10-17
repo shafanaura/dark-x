@@ -1,5 +1,4 @@
 import styles from '../styles/Home.module.scss'
-import 'react-responsive-carousel/lib/styles/carousel.min.css'
 import Head from 'next/Head'
 import Navbar from '../components/Navbar'
 import Introduction from '../layouts/Introduction'

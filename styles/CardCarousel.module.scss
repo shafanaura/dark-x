@@ -1,0 +1,77 @@
+.container {
+  padding: 18px;
+  background-color: var(--gray-dark);
+  border-radius: 12px;
+  border: 1.5px solid rgba(170, 170, 170, 0.363);
+  display: flex;
+  width: 500px;
+  min-height: 200px;
+  gap: 32px;
+  justify-content: space-between;
+  align-items: center;
+  img {
+    height: 160px;
+    width: 160px;
+    border-radius: 50%;
+    object-fit: cover;
+  }
+}
+.comment {
+  font-size: 18px;
+  font-weight: 500;
+}
+.description {
+  margin-bottom: 16px;
+  font-size: 13px;
+  opacity: 0.6;
+}
+.name {
+  font-size: 16px;
+}
+.job {
+  font-size: 12px;
+  opacity: 0.6;
+}
+.slider {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.right_arrow {
+  position: absolute;
+  top: 50%;
+  right: 32px;
+  font-size: 24px;
+  border-radius: 50%;
+  background-color: var(--gray-dark);
+  padding: 12px;
+  z-index: 10;
+  cursor: pointer;
+  user-select: none;
+}
+
+.left_arrow {
+  position: absolute;
+  top: 50%;
+  left: 32px;
+  font-size: 24px;
+  border-radius: 50%;
+  background-color: var(--gray-dark);
+  padding: 12px;
+  z-index: 10;
+  cursor: pointer;
+  user-select: none;
+}
+
+.slide {
+  opacity: 0;
+  transition-duration: 1s ease;
+}
+
+.slide_active {
+  opacity: 1;
+  transition-duration: 1s;
+  transform: scale(1.1);
+}

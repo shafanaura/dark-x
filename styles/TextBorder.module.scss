@@ -14,7 +14,9 @@
 }
 @media (max-width: $max-mobile-screen) {
   .property {
-    padding: 2px;
+    height: 24px;
+    width: 24px;
+    padding: 12px;
     font-size: 18px;
     border-radius: 12px;
   }
