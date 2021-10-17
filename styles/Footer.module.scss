@@ -1,0 +1,41 @@
+@import '../styles/globals_query.scss';
+
+.container {
+  padding: 0 24px;
+  display: grid;
+  grid-template-columns: 30% 30% 40%;
+  ul {
+    display: grid;
+    gap: 12px;
+    padding: 0;
+  }
+  li {
+    list-style-type: none;
+    opacity: 0.6;
+  }
+}
+.title {
+  font-weight: 500;
+  font-size: 17px;
+}
+.description {
+  margin-top: 6px;
+  margin-bottom: 36px;
+  font-size: 14px;
+  opacity: 0.5;
+}
+.copyright {
+  font-size: 14px;
+  opacity: 0.6;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 24px;
+}
+@media (max-width: $max-mobile-screen) {
+  .container {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+  }
+}

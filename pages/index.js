@@ -22,9 +22,7 @@ export default function Home() {
         <Started />
         <Review />
       </div>
-      <div style={{ marginTop: 100 }} />
       <Footer />
-      <div style={{ marginTop: 100 }} />
     </div>
   )
 }

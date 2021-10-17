@@ -6,8 +6,14 @@
   font-size: 32px;
   margin: 72px 0;
 }
+.container {
+  margin-bottom: 150px;
+}
 
 @media (max-width: $max-mobile-screen) {
+  .container {
+    display: none;
+  }
   .title {
     font-size: 24px;
   }

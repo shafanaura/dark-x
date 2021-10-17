@@ -21,8 +21,14 @@ h2 {
 a {
   color: inherit;
   text-decoration: none;
+  &:hover {
+    text-decoration: underline;
+  }
 }
-
+#inputID::placeholder {
+  color: white;
+  opacity: 1;
+}
 * {
   font-family: 'Poppins', sans-serif;
   color: white;
