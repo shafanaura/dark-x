@@ -29,13 +29,20 @@ a {
 }
 
 .padding_container {
-  padding-left: 3rem;
-  padding-right: 3rem;
+  padding-left: 4rem;
+  padding-right: 4rem;
+}
+
+hr {
+  height: 2px;
+  border: none;
+  background-color: rgba(104, 104, 104, 0.39);
+  margin: 24px 0;
 }
 
 @media (max-width: $max-tablet-screen) {
   .padding_container {
-    padding-left: 0;
-    padding-right: 0;
+    padding-left: 1rem;
+    padding-right: 1rem;
   }
 }

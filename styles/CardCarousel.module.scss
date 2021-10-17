@@ -1,3 +1,5 @@
+@import '../styles/globals_query.scss';
+
 .container {
   padding: 18px;
   background-color: var(--gray-dark);
@@ -74,4 +76,10 @@
   opacity: 1;
   transition-duration: 1s;
   transform: scale(1.1);
+}
+
+@media (max-width: $max-mobile-screen) {
+  .container {
+    display: none;
+  }
 }
