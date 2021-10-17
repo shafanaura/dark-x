@@ -1,4 +1,3 @@
-import Image from 'next/image'
 import Link from 'next/link'
 import styles from '../styles/Navbar.module.scss'
 import Button from './Button'
@@ -26,7 +25,7 @@ export default function Navbar() {
 
       <div className={styles.logo}>
         <p>Dark X</p>
-        <Image src="/assets/icons/logo.svg" alt="logo" width="40" height="40" />
+        <img src="/assets/icons/logo.svg" alt="logo" width="40" height="40" />
       </div>
       <div className={styles.nav_links}>
         <Link href="#">Home</Link>
