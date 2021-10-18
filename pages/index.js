@@ -1,4 +1,4 @@
-import Head from 'next/Head'
+import Head from 'next/head'
 import Navbar from '../components/Navbar'
 import Introduction from '../layouts/Introduction'
 import Feature from '../layouts/Feature'
