@@ -3,21 +3,21 @@
 .property {
   height: 38px;
   width: 38px;
-  padding: 12px;
+  padding: 8px !important;
   background-color: var(--gray-light);
   border-radius: 18px;
   font-weight: 700;
-  font-size: 24px;
+  font-size: 20px;
   display: flex;
   justify-content: center;
   align-items: center;
 }
 @media (max-width: $max-mobile-screen) {
-  .property {
-    height: 24px;
-    width: 24px;
-    padding: 12px;
-    font-size: 18px;
-    border-radius: 12px;
-  }
+  // .property {
+  //   height: 24px;
+  //   width: 24px;
+  //   padding: 12px;
+  //   font-size: 18px;
+  //   border-radius: 12px;
+  // }
 }
