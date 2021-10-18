@@ -2,6 +2,7 @@ import Link from 'next/link'
 import styles from '../styles/Navbar.module.scss'
 import Button from './Button'
 import { FiAlignRight, FiX } from 'react-icons/fi'
+import Image from 'next/image'
 
 export default function Navbar() {
   function openNav() {
@@ -25,7 +26,7 @@ export default function Navbar() {
 
       <div className={styles.logo}>
         <p>Dark X</p>
-        <img src="/assets/icons/logo.svg" alt="logo" width="40" height="40" />
+        <Image src="/assets/icons/logo.svg" alt="logo" width="40" height="40" />
       </div>
       <div className={styles.nav_links}>
         <Link href="#">Home</Link>

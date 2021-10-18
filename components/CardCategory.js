@@ -1,5 +1,6 @@
 import styles from '../styles/CardCategory.module.scss'
 import TextBorder from './TextBorder'
+import Image from 'next/image'
 
 const VARIANT = ['nobg', 'bg']
 const DIRECTION = ['col', 'row']
@@ -32,7 +33,12 @@ export default function CardCategory({
       </div>
       {type === 'img' && (
         <div className={styles.container_img}>
-          <img src={`/assets/img/${img}`} alt="img" />
+          <Image
+            height={300}
+            width={180}
+            src={`/assets/img/${img}`}
+            alt="img"
+          />
         </div>
       )}
     </div>

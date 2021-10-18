@@ -2,16 +2,17 @@ import Button from '../components/Button'
 import CardAbout from '../components/CardAbout'
 import CardCategory from '../components/CardCategory'
 import styles from '../styles/About.module.scss'
+import Image from 'next/image'
 
 const RightContent = (
   <div className={styles.container_img_right}>
-    <img src="/assets/img/dashboard.svg" alt="img" />
+    <Image width="651" height="444" src="/assets/img/dashboard.svg" alt="img" />
   </div>
 )
 
 const LeftContent = (
   <div className={styles.container_img_left}>
-    <img src="/assets/img/encrypt.svg" alt="img" />
+    <Image height={300} width={300} src="/assets/img/encrypt.svg" alt="img" />
   </div>
 )
 

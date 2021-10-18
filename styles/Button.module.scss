@@ -42,20 +42,20 @@ $gradient: linear-gradient(rgba(255, 255, 255, 0), rgba(255, 255, 255, 0)),
   width: 160px;
   height: 50px;
 }
-// @media (max-width: $max-mobile-screen) {
-//   .large {
-//     font-size: 12px;
-//     width: 140px;
-//     height: 40px;
-//   }
-//   .medium {
-//     font-size: 11px;
-//     width: 120px;
-//     height: 36px;
-//   }
-//   .small {
-//     font-size: 10px;
-//     width: 100px;
-//     height: 30px;
-//   }
-// }
+@media (max-width: $max-mobile-screen) {
+  .large {
+    font-size: 12px;
+    width: 140px;
+    height: 40px;
+  }
+  .medium {
+    font-size: 11px;
+    width: 120px;
+    height: 36px;
+  }
+  .small {
+    font-size: 10px;
+    width: 100px;
+    height: 30px;
+  }
+}

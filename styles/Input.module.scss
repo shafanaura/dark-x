@@ -1,3 +1,5 @@
+@import '../styles/globals_query.scss';
+
 .input {
   height: 50px;
   padding: 0 12px;
@@ -5,4 +7,12 @@
   color: white;
   border-radius: 50px;
   border: none;
+}
+
+@media (max-width: $max-mobile-screen) {
+  .input {
+    font-size: 12px;
+    width: 140px;
+    height: 40px;
+  }
 }

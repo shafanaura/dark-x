@@ -1,4 +1,4 @@
-import styles from '../styles/TextBorder.module.scss';
+import styles from '../styles/TextBorder.module.scss'
 
 export default function TextBorder({ icon, text }) {
   return icon ? (
@@ -9,5 +9,5 @@ export default function TextBorder({ icon, text }) {
     />
   ) : (
     <p className={styles.property}>{text}</p>
-  );
+  )
 }
