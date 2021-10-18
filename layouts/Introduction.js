@@ -1,6 +1,6 @@
 import Button from '../components/Button'
 import styles from '../styles/Introduction.module.scss'
-import Image from 'next/Image'
+import Image from 'next/image'
 
 export default function Introduction() {
   return (

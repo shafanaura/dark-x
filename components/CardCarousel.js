@@ -1,7 +1,7 @@
 import styles from '../styles/CardCarousel.module.scss'
 import { useState } from 'react'
 import { FaArrowRight, FaArrowLeft } from 'react-icons/fa'
-import Image from 'next/Image'
+import Image from 'next/image'
 
 export function CardCarousel({ slides }) {
   const [current, setCurrent] = useState(0)
