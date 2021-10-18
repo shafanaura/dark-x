@@ -1,6 +1,7 @@
 import styles from '../styles/CardCarousel.module.scss'
 import { useState } from 'react'
 import { FaArrowRight, FaArrowLeft } from 'react-icons/fa'
+import Image from 'next/Image'
 
 export function CardCarousel({ slides }) {
   const [current, setCurrent] = useState(0)
@@ -38,25 +39,19 @@ export function CardCarousel({ slides }) {
                       <p className={styles.job}>{item.job}</p>
                     </div>
                   </div>
-                  <img src={item.image} alt="img" />
+                  <Image
+                    src={item.image}
+                    width={500}
+                    height={500}
+                    objectFit="cover"
+                    alt="img"
+                  />
                 </div>
               )}
             </div>
           </div>
         )
       })}
-      {/* {slides.map((slide, index) => {
-        return (
-          <div
-            className={index === current ? styles.slide_active : styles.slide}
-            key={index}
-          >
-            {index === current && (
-              <img src={slide.image} className={styles.image} />
-            )}
-          </div>
-        )
-      })} */}
     </section>
   )
 }

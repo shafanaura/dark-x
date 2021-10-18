@@ -1,5 +1,6 @@
 import Button from '../components/Button'
 import styles from '../styles/Introduction.module.scss'
+import Image from 'next/Image'
 
 export default function Introduction() {
   return (
@@ -17,7 +18,7 @@ export default function Introduction() {
         </Button>
       </div>
       <div className={styles.chart_container}>
-        <img
+        <Image
           src="/assets/img/chart-board.svg"
           alt="chart"
           width="1373"
