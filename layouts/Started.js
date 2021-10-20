@@ -5,7 +5,11 @@ import styles from '../styles/Started.module.scss'
 export default function Started() {
   return (
     <div className={styles.container}>
-      <div className={styles.left_content}>
+      <div
+        className={styles.left_content}
+        data-aos="fade-up-right"
+        data-aos-duration="1500"
+      >
         <h2>How to get started</h2>
         <span>
           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam ipsum

@@ -16,11 +16,21 @@ export default function Navbar() {
       <div id="myNav" className={styles.overlay}>
         <FiX className={styles.closebtn} onClick={closeNav} />
         <div className={styles.overlay_content}>
-          <Link href="#">Home</Link>
-          <Link href="#">About</Link>
-          <Link href="#">Pricing</Link>
-          <Link href="#">Pages</Link>
-          <Link href="#">Cart(0)</Link>
+          <Link href="#home">
+            <a onClick={closeNav}>Home</a>
+          </Link>
+          <Link href="#about">
+            <a onClick={closeNav}>About</a>
+          </Link>
+          <Link href="#pricing">
+            <a onClick={closeNav}>Pricing</a>
+          </Link>
+          <Link href="#pages">
+            <a onClick={closeNav}>Pages</a>
+          </Link>
+          <Link href="#">
+            <a onClick={closeNav}>Cart(0)</a>
+          </Link>
         </div>
       </div>
 
@@ -29,10 +39,10 @@ export default function Navbar() {
         <Image src="/assets/icons/logo.svg" alt="logo" width="40" height="40" />
       </div>
       <div className={styles.nav_links}>
-        <Link href="#">Home</Link>
-        <Link href="#">About</Link>
-        <Link href="#">Pricing</Link>
-        <Link href="#">Pages</Link>
+        <Link href="#home">Home</Link>
+        <Link href="#about">About</Link>
+        <Link href="#pricing">Pricing</Link>
+        <Link href="#pages">Pages</Link>
         <Link href="#">Cart(0)</Link>
       </div>
       <div className={styles.auth_container}>

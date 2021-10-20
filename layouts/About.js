@@ -6,13 +6,27 @@ import Image from 'next/image'
 
 const RightContent = (
   <div className={styles.container_img_right}>
-    <Image width="651" height="444" src="/assets/img/dashboard.svg" alt="img" />
+    <Image
+      width="651"
+      height="444"
+      src="/assets/img/dashboard.svg"
+      alt="img"
+      data-aos="fade-left"
+      data-aos-duration="1500"
+    />
   </div>
 )
 
 const LeftContent = (
   <div className={styles.container_img_left}>
-    <Image height={300} width={300} src="/assets/img/encrypt.svg" alt="img" />
+    <Image
+      height={300}
+      width={300}
+      src="/assets/img/encrypt.svg"
+      alt="img"
+      data-aos="fade-right"
+      data-aos-duration="1500"
+    />
   </div>
 )
 

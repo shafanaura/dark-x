@@ -21,7 +21,11 @@ export default function CardCategory({
     : DIRECTION[0]
   type = type === 'img' ? type : 'no-img'
   return (
-    <div className={styles.parent_container}>
+    <div
+      className={styles.parent_container}
+      data-aos="fade-up"
+      data-aos-duration="1500"
+    >
       <div
         className={`${styles[checkVariant]} ${styles[checkDirection]} ${styles.container} ${styles[type]}`}
       >
@@ -34,6 +38,8 @@ export default function CardCategory({
       {type === 'img' && (
         <div className={styles.container_img}>
           <Image
+            data-aos="fade-up"
+            data-aos-duration="1500"
             height={300}
             width={180}
             src={`/assets/img/${img}`}

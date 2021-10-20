@@ -4,7 +4,11 @@ import Image from 'next/image'
 
 export default function Introduction() {
   return (
-    <div className={styles.container}>
+    <div
+      className={styles.container}
+      data-aos="fade-up"
+      data-aos-duration="1500"
+    >
       <p style={{ marginTop: 48 }}>Next-Gen Investing App</p>
       <p className={styles.gradient_text}>for modern investor</p>
       <span>
@@ -17,7 +21,11 @@ export default function Introduction() {
           Browse Features
         </Button>
       </div>
-      <div className={styles.chart_container}>
+      <div
+        className={styles.chart_container}
+        data-aos="fade-up"
+        data-aos-duration="1500"
+      >
         <Image
           src="/assets/img/chart-board.svg"
           alt="chart"
