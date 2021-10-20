@@ -1,3 +1,4 @@
+/* eslint-disable @next/next/no-sync-scripts */
 import '../styles/globals.scss'
 import Head from 'next/head'
 
